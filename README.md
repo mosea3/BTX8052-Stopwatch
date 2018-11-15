@@ -1,7 +1,7 @@
 # BTX8052-Stopwatch
 just another GUI-stopwatch with Java FX
 
-**Aufgaben
+**Aufgaben**
 
 -Schreiben Sie Ihre erste JavaFX Applikation!
 
