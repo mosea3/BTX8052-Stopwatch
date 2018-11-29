@@ -6,13 +6,12 @@ import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
 public class Main extends Application {
-	Timer timer = new Timer();
 	Stopwatch stopwatch;
 
 	@Override
 	public void start(Stage stage) throws Exception {
 
-		BorderPane stopwatch = new Stopwatch();
+		BorderPane stopwatch = new Stopwatch(1000);
 
 		// Set up the stage
 		stage.setTitle("Stopwatch");
